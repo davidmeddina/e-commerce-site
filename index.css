@@ -1,5 +1,6 @@
+
 .container-fluid{
-  margin: 0px 150px;
+  margin: 0px 5%;
 }
 
 .img-car{
@@ -8,4 +9,41 @@
 
 .d-items{
 margin-top: 2%;
+}
+
+.input-group{
+  margin: 1.5% 0%;
+}
+
+h3{
+  font-size: 20px;
+}
+
+@media(max-width:992px){
+
+  .container-fluid{
+    margin: 0px 2%;
+  }
+  
+  .categories{
+    display: none;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .container-fluid{
+    margin: 0px 1%;
+  }
+  
+  h3{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
 }
