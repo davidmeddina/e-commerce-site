@@ -124,7 +124,93 @@
                 <p>La camiseta ideal para hipsters</p>
                 <p><a href="#" class="btn btn-primary" role="button">$229 <span
                       class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-                  <a href="#" class="btn btn-default" role="button">Detalles</a></p>
+                  <a href="#" class="btn btn-default" role="button" data-toggle="modal"
+                    data-target="#myModal">Detalles</a></p>
+
+                <!-- MODAL -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Hipster Ultimate</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign"
+                            aria-hidden="true"></span> Este producto está agotado
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <a href="#" class="thumbnail">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg"
+                                  alt="...">
+                              </a>
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Precio: <strong>$299</strong></p>
+                              Calificación:
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                              <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span><br>
+                              <h5>
+                                <span class="label label-warning">Hipster</span>
+                                <span class="label label-default">Deportiva</span>
+                              </h5>
+                              <a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Agregar a
+                                los deseos</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div>
+
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                    data-toggle="tab">Descripción</a>
+                                </li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                    data-toggle="tab">Comentarios</a></li>
+                              </ul>
+
+                              <!-- Tab panes -->
+                              <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo neque,
+                                    accusantium eos maxime reprehenderit porro hic tempore natus iste?</p>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">David Medina comentó hace dos días</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                      Esta camiseta es increible, la quiero!
+                                    </div>
+                                  </div>
+                                  <textarea type="text" class="form-control" placeholder="Ingresa tu comentario" rows=3></textarea>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary"><strong>Comprar</strong></button>
+                      </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
               </div>
             </div>
           </div>

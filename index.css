@@ -19,6 +19,10 @@ h3{
   font-size: 20px;
 }
 
+.tab-pane{
+  margin: 3% 2%;
+}
+
 @media(max-width:992px){
 
   .container-fluid{
