@@ -1,3 +1,7 @@
 .container-fluid{
-  margin: 0px 70px;
+  margin: 0px 150px;
+}
+
+.img-car{
+  width: 100%;
 }
